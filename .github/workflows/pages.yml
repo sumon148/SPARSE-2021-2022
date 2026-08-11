@@ -33,7 +33,7 @@ jobs:
       - name: Upload docs folder
         uses: actions/upload-pages-artifact@v4
         with:
-          path: './docs'
+          path: './doc'
 
       - name: Deploy to GitHub Pages
         id: deployment
